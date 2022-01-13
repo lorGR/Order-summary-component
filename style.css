@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    min-height: 100vh;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    position: relative;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 450px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.text-content{
+    padding: 7%;
+    text-align: center;
+}
+
+.title{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.text-content p.subtitle{
+    color: #646464;
+    margin-bottom: 25px;
+}
+
+.plan-box{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 12px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.plan-box-left{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.plan-box-left div{
+    margin-left: 25px;
+}
+
+.plan-box-left h5{
+    font-weight: 900;
+    font-size:16px;
+    margin-bottom: 3px;
+    color: hsl(223, 47%, 23%);
+}
+
+.plan-box-left p{
+    color: #646464;
+}
+
+.plan-box a{
+    color: hsl(245, 75%, 52%);
+    font-weight: 900;
+}
+
+a.proceed-btn{
+    display: block;
+    text-decoration: none;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    padding: 10px 0px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    font-weight: 900;
+}
+
+a.cancel-btn{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+}
+
+.plan-box a:hover{
+    color: hsl(249, 100%, 74%);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.proceed-btn:hover{
+    background-color: hsl(249, 100%, 74%);
+    cursor: pointer;
+}
+
+a.cancel-btn:hover{
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+
